@@ -12,6 +12,8 @@ import sys
 import shutil
 import pkg_resources
 import glob
+
+from io import open
 from setuptools import setup, find_packages
 from setuptools.archive_util import unpack_archive
 
